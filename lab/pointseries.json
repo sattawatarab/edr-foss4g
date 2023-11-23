@@ -1,0 +1,95 @@
+{
+    "type": "Coverage",
+    "domain": {
+        "type": "Domain",
+        "domainType": "PointSeries",
+        "axes": {
+            "x": {
+                "values": [
+                    100
+                ]
+            },
+            "y": {
+                "values": [
+                    10
+                ]
+            },
+            "t": {
+                "values": [
+                    "2023-03-01T00:03:30Z",
+                    "2023-03-02T00:03:30Z",
+                    "2023-03-03T00:03:30Z",
+                    "2023-03-04T00:03:30Z",
+                    "2023-03-05T00:03:30Z",
+                    "2023-03-06T00:03:30Z",
+                    "2023-03-07T00:03:30Z",
+                    "2023-03-08T00:03:30Z",
+                    "2023-03-09T00:03:30Z",
+                    "2023-03-10T00:03:30Z"
+                ]
+            }
+        },
+        "referencing": [
+            {
+                "coordinates": [
+                    "x",
+                    "y"
+                ],
+                "system": {
+                    "type": "GeographicCRS",
+                    "id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+                }
+            },
+            {
+                "coordinates": [
+                    "t"
+                ],
+                "system": {
+                    "type": "TemporalRS",
+                    "calendar": "Gregorian"
+                }
+            }
+        ]
+    },
+    "parameters": {
+        "data": {
+            "type": "Parameter",
+            "description": {
+                "en": "Data Coverage in Vallaris Maps."
+            },
+            "unit": {
+                "symbol": "unit"
+            },
+            "observedProperty": {
+                "id": "vallaris",
+                "label": {
+                    "en": "Value of Data"
+                }
+            }
+        }
+    },
+    "ranges": {
+        "data": {
+            "type": "NdArray",
+            "dataType": "float",
+            "axisNames": [
+                "t"
+            ],
+            "shape": [
+                10
+            ],
+            "values": [
+                43.9599,
+                40.9599,
+                39.9599,
+                40.9599,
+                41.9599,
+                42.9599,
+                40.9599,
+                41.9599,
+                30.9599,
+                40.9599
+            ]
+        }
+    }
+}
